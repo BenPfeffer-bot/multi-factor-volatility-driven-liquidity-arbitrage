@@ -1,0 +1,15 @@
+db/
+venv/
+output/
+logs/
+
+.env
+*__init__.py
+.DS_Store
+*.pyc
+*.pyo
+*.pyd
+*.pyw
+*.pyz
+*.pywz
+*__pycache__
