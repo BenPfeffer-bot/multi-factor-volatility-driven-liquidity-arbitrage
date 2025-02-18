@@ -19,10 +19,6 @@ MOMENTUM_WINDOWS = [5, 10, 20]
 RSI_WINDOW = 14
 TRANSFER_ENTROPY_WINDOW = 50
 
-# Forex data parameters
-RESAMPLE_INTERVAL = "5min"  # Default resampling interval for forex data
-CACHE_DIR = "data/cache"  # Directory for caching data
-
 # Model parameters
 CV_FOLDS = 5
 TEST_SIZE = 0.2
@@ -37,7 +33,7 @@ TAKE_PROFIT = 0.05  # Take profit threshold
 DJ_TITANS_50_TICKER = [
     "MMM",  # 3M
     "ABBV",  # AbbVie
-    "ALIZY",  # Allianz
+    # "ALIZY",  # Allianz
     "GOOG",  # Alphabet
     "AMZN",  # Amazon
     "AMGN",  # Amgen
@@ -65,7 +61,7 @@ DJ_TITANS_50_TICKER = [
     "MCD",  # McDonald's
     "MRK",  # Merck
     "MSFT",  # Microsoft
-    "NSRGY",  # Nestlé
+    # "NSRGY",  # Nestlé
     "NVS",  # Novartis
     "NVDA",  # Nvidia
     "ORCL",  # Oracle
@@ -73,73 +69,23 @@ DJ_TITANS_50_TICKER = [
     "PFE",  # Pfizer
     "PM",  # Philip Morris
     "PG",  # Procter & Gamble
-    "RHHBY",  # Roche
+    # "RHHBY",  # Roche
     "RY",  # Royal Bank of Canada
     "SHEL",  # Shell
-    "SSNLF",  # Samsung
+    # "SSNLF",  # Samsung
+    "SOFR",  # Amplify Samsung SOFR ETF
     "SNY",  # Sanofi
-    "SIEGY",  # Siemens
+    # "SIEGY",  # Siemens
     "TSM",  # TSMC
     "TTE",  # TotalEnergies
     "V",  # Visa
     "TM",  # Toyota
     "WMT",  # Walmart
     "DIS",  # Disney
+    "VIXM",  # VIX Index
+    "VIXY",  # VIX Index
 ]
-# List of EuroStoxx50 tickers to analyze (updated to remove delisted)
-TICKERS = [
-    "MC.PA",  # LVMH
-    "OR.PA",  # L'Oréal
-    "TTE.PA",  # TotalEnergies
-    "SAN.PA",  # Sanofi
-    "AIR.PA",  # Airbus
-    "SU.PA",  # Schneider Electric
-    "AI.PA",  # Air Liquide
-    "RMS.PA",  # Hermès International
-    "SAF.PA",  # Safran
-    "EL.PA",  # EssilorLuxottica
-    "BNP.PA",  # BNP Paribas
-    "CS.PA",  # AXA
-    "DG.PA",  # Vinci
-    "SGO.PA",  # Saint-Gobain
-    "BN.PA",  # Danone
-    "RI.PA",  # Pernod Ricard
-    "KER.PA",  # Kering
-    "SAP.DE",  # SAP
-    "SIE.DE",  # Siemens
-    "DTE.DE",  # Deutsche Telekom
-    "ALV.DE",  # Allianz
-    "MUV2.DE",  # Munich Re
-    "DB1.DE",  # Deutsche Börse
-    "IFX.DE",  # Infineon Technologies
-    "ADS.DE",  # Adidas
-    "BAS.DE",  # BASF
-    "MBG.DE",  # Mercedes-Benz Group
-    "DHL.DE",  # Deutsche Post
-    "BMW.DE",  # BMW
-    "BAYN.DE",  # Bayer
-    "VOW3.DE",  # Volkswagen
-    "ASML.AS",  # ASML Holding
-    "PRX.AS",  # Prosus
-    "INGA.AS",  # ING Group
-    "ADYEN.AS",  # Adyen
-    "WKL.AS",  # Wolters Kluwer
-    "AD.AS",  # Ahold Delhaize
-    "IBE.MC",  # Iberdrola
-    "SAN.MC",  # Banco Santander
-    "ITX.MC",  # Inditex
-    "BBVA.MC",  # BBVA
-    "ISP.MI",  # Intesa Sanpaolo
-    "UCG.MI",  # UniCredit
-    "ENEL.MI",  # Enel
-    "RACE.MI",  # Ferrari
-    "ENI.MI",  # Eni
-    "STLAM.MI",  # Stellantis
-    "ABI.BR",  # Anheuser-Busch InBev
-    "NDA-FI.HE",  # Nordea Bank
-    "NOKIA.HE",  # Nokia
-    "^STOXX50E",  # EUROSTOXX50
-]
+
 
 
 # Error handling
